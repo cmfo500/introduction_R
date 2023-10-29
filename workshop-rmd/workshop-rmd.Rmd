@@ -1233,7 +1233,7 @@ be interested in determining whether `sepal.length` differs between the
     criteria, i.e. only the rows related to `Setosa` and `Versicolor`
     varieties;
 
-```{r subset data by variety}
+```{r subset data by variety diff virginica}
 
 setosa_versicolor_data <- filter(flower_data, variety != "Virginica")
 ```
